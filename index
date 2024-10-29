@@ -1,0 +1,10 @@
+LLM-BioCogDemo/
+  |-- index.html
+  |-- objectives.html
+  |-- methodology.html
+  |-- results.html
+  |-- team.html
+  |-- assets/
+       |-- styles.css
+       |-- images/
+       |-- scripts/
