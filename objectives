@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>LLM-BioCogDemo - Objectives</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="objectives.html">Objectives</a></li>
+                <li><a href="methodology.html">Methodology</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="objectives">
+            <h1>Project Objectives</h1>
+            <h2>Main Objective</h2>
+            <p>Develop a rigorous methodology to evaluate the capabilities of language models.</p>
+            <h2>Secondary Objectives</h2>
+            <ul>
+                <li>Explore whether LLMs can be reliable proxies for human cognition.</li>
+                <li>Evaluate the ethical impact of LLMs in bioethics and democratic deliberation.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 LLM-BioCogDemo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
