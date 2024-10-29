@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>LLM-BioCogDemo - Methodology</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="objectives.html">Objectives</a></li>
+                <li><a href="methodology.html">Methodology</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="methodology">
+            <h1>Methodology</h1>
+            <p>The project is structured in different work packages that cover the analysis of cognitive, ethical, and deliberative capabilities of language models.</p>
+            <h2>Work Packages</h2>
+            <ul>
+                <li><strong>WP1:</strong> Evaluation of LLMs' cognitive capabilities.</li>
+                <li><strong>WP2:</strong> Investigation of the applicability of LLMs in bioethics.</li>
+                <li><strong>WP3:</strong> Use of LLMs to support democratic deliberation.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 LLM-BioCogDemo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
