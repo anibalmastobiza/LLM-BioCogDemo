@@ -1,10 +1,33 @@
-LLM-BioCogDemo/
-  |-- index.html
-  |-- objectives.html
-  |-- methodology.html
-  |-- results.html
-  |-- team.html
-  |-- assets/
-       |-- styles.css
-       |-- images/
-       |-- scripts/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research on the cognitive, ethical, and deliberative capabilities of LLMs">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>LLM-BioCogDemo - Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="objectives.html">Objectives</a></li>
+                <li><a href="methodology.html">Methodology</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h1>LLM-BioCogDemo</h1>
+            <p>Welcome to the LLM-BioCogDemo project website, where we investigate the capabilities of language models in cognitive science, bioethics, and democratic deliberation.</p>
+            <img src="assets/images/banner.jpg" alt="Project representative image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 LLM-BioCogDemo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
