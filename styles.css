@@ -1,3 +1,7 @@
+git add assets/styles.css
+git commit -m "Add styles.css for website"
+git push
+
 /* Reset some elements */
 * {
     margin: 0;
