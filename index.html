@@ -1,42 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Research on the cognitive, ethical, and deliberative capabilities of LLMs">
-    <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
-    <title>LLM-BioCogDemo - Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM-BioCogDemo Project</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="nav-container">
-                <h1 class="nav-logo">LLM-BioCogDemo</h1>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="objectives.html">Objectives</a></li>
-                    <li><a href="methodology.html">Methodology</a></li>
-                    <li><a href="results.html">Results</a></li>
-                    <li><a href="team.html">Team</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>LLM-BioCogDemo</h2>
-                <p>Language, Cognition, and Human Nature</p>
-                <p class="subtitle">Research and Ethical Analysis of Cognitive Systems</p>
-                <a href="objectives.html" class="btn-primary">Discover Our Research</a>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-container">
-            <p>&copy; 2024 LLM-BioCogDemo. All rights reserved.</p>
-        </div>
-    </footer>
+
+  <header class="banner">
+    <h1>LLM-BioCogDemo</h1>
+    <p>Investigando el rendimiento de los modelos de lenguaje de IA en bioética, ciencias cognitivas y deliberación democrática</p>
+  </header>
+
+  <nav class="tab-menu">
+    <button class="tablink" onclick="openTab(event, 'Summary')">Resumen</button>
+    <button class="tablink" onclick="openTab(event, 'Objectives')">Objetivos</button>
+    <button class="tablink" onclick="openTab(event, 'Methodology')">Metodología</button>
+    <button class="tablink" onclick="openTab(event, 'WorkPackages')">Paquetes de Trabajo</button>
+    <button class="tablink" onclick="openTab(event, 'Dissemination')">Diseminación</button>
+  </nav>
+
+  <section id="Summary" class="tabcontent">
+    <h2>Resumen del Proyecto</h2>
+    <p>Este proyecto explora la capacidad de los modelos de lenguaje de IA para realizar tareas en bioética, ciencias cognitivas y deliberación democrática, evaluando su validez y confiabilidad.</p>
+  </section>
+
+  <section id="Objectives" class="tabcontent">
+    <h2>Objetivos</h2>
+    <ul>
+      <li>Desarrollar una metodología rigurosa para evaluar los modelos de lenguaje en los dominios de ciencia cognitiva, bioética y deliberación democrática.</li>
+      <li>Explorar si los modelos pueden actuar como proxies de la cognición humana bajo ciertas condiciones.</li>
+      <li>Establecer mejores prácticas para la evaluación de modelos de lenguaje.</li>
+    </ul>
+  </section>
+
+  <section id="Methodology" class="tabcontent">
+    <h2>Metodología</h2>
+    <p>El proyecto emplea una metodología iterativa para analizar el rendimiento de los modelos de lenguaje en tres dominios: ciencia cognitiva, bioética y deliberación democrática, combinando métodos experimentales y cualitativos.</p>
+  </section>
+
+  <section id="WorkPackages" class="tabcontent">
+    <h2>Paquetes de Trabajo</h2>
+    <ul>
+      <li><strong>WP1:</strong> Evaluación de capacidades cognitivas de los modelos de lenguaje.</li>
+      <li><strong>WP2:</strong> Exploración del uso de modelos de lenguaje en la bioética.</li>
+      <li><strong>WP3:</strong> Estudio del rol de los modelos en la deliberación democrática.</li>
+      <li><strong>WP4:</strong> Análisis ético de los modelos de lenguaje en escenarios prácticos.</li>
+    </ul>
+  </section>
+
+  <section id="Dissemination" class="tabcontent">
+    <h2>Plan de Diseminación</h2>
+    <p>El proyecto se difundirá a través de publicaciones en revistas académicas, presentaciones en conferencias y actividades en redes sociales y medios públicos, con el fin de alcanzar a la comunidad científica y al público en general.</p>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
