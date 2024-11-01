@@ -13,7 +13,7 @@ body {
 }
 
 .banner {
-  background: #004080;
+  background: #004080; /* Azul oscuro */
   color: white;
   padding: 20px;
   text-align: center;
