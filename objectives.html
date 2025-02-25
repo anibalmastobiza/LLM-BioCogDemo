@@ -5,38 +5,194 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LLM-BioCogDemo - Objectives</title>
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-  <header class="banner">
-    <h1>LLM-BioCogDemo - Objectives</h1>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="objectives.html">Objectives</a></li>
-      <li><a href="methodology.html">Methodology</a></li>
-      <li><a href="results.html">Results</a></li>
-      <li><a href="team.html">Team</a></li>
-    </ul>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">LLM-BioCogDemo</a>
+      </div>
+      <div class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="objectives.html" class="active">Objectives</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="results.html">Results</a>
+        <a href="team.html">Team</a>
+        <a href="#" class="github-link"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
   </nav>
 
-  <main>
-    <section>
-      <h2>Objectives</h2>
-      <p>The primary objectives of the LLM-BioCogDemo project are as follows:</p>
-      <ul>
-        <li>Develop a rigorous methodology to evaluate language models in the domains of cognitive science, bioethics, and democratic deliberation.</li>
-        <li>Explore whether language models can act as proxies for human cognition under specific conditions.</li>
-        <li>Establish best practices for evaluating language models in these critical areas.</li>
-      </ul>
-    </section>
-  </main>
+  <div class="page-header">
+    <div class="page-header-content">
+      <h1>Project Objectives</h1>
+      <p>Exploring the capabilities and limitations of language models in complex domains</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="tab-navigation">
+      <button class="tab-link" onclick="openTab(event, 'overview')">Overview</button>
+      <button class="tab-link" onclick="openTab(event, 'cognitive')">Cognitive Science</button>
+      <button class="tab-link" onclick="openTab(event, 'bioethics')">Bioethics</button>
+      <button class="tab-link" onclick="openTab(event, 'deliberation')">Democratic Deliberation</button>
+    </div>
+
+    <div id="overview" class="tab-content">
+      <div class="content-card">
+        <h2>Research Objectives</h2>
+        <p>The LLM-BioCogDemo project aims to systematically evaluate the capabilities of advanced language models across three critical domains of human reasoning. Our objectives include:</p>
+        
+        <div class="objective-item">
+          <div class="objective-icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <div class="objective-content">
+            <h3>Methodological Innovation</h3>
+            <p>Develop robust methodologies for evaluating language model performance in cognitive science, bioethics, and democratic deliberation that combine quantitative metrics with qualitative analysis.</p>
+          </div>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-icon">
+            <i class="fas fa-exchange-alt"></i>
+          </div>
+          <div class="objective-content">
+            <h3>Comparative Analysis</h3>
+            <p>Conduct side-by-side comparisons between language model outputs and human responses across a range of tasks designed to test different aspects of cognition and reasoning.</p>
+          </div>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="objective-content">
+            <h3>Best Practices Framework</h3>
+            <p>Establish a comprehensive set of best practices for the responsible evaluation and deployment of language models in domains requiring sophisticated reasoning and ethical judgment.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content-card">
+        <h2>Expected Outcomes</h2>
+        <p>Through this research, we expect to deliver:</p>
+        <ul class="outcomes-list">
+          <li>A validated methodology for assessing AI language models across cognitive, ethical, and deliberative domains</li>
+          <li>A detailed analysis of where language models succeed and fail when compared to human performance</li>
+          <li>Guidelines for researchers and practitioners on the appropriate use and limitations of language models</li>
+          <li>Open datasets and evaluation protocols to facilitate further research in this area</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="cognitive" class="tab-content">
+      <div class="content-card">
+        <h2>Cognitive Science Objectives</h2>
+        <p>In the domain of cognitive science, our research focuses on understanding how language models process information compared to human cognition:</p>
+        
+        <div class="objective-details">
+          <h3>Key Research Questions</h3>
+          <ul>
+            <li>To what extent do language models replicate human reasoning patterns in problem-solving tasks?</li>
+            <li>Can language models exhibit the same cognitive biases found in human subjects?</li>
+            <li>How do language models perform on tasks requiring theory of mind capabilities?</li>
+            <li>What are the limitations of language models in understanding conceptual metaphors and analogical reasoning?</li>
+          </ul>
+        </div>
+        
+        <div class="objective-details">
+          <h3>Experimental Approach</h3>
+          <p>Our methodology involves presenting language models with classic cognitive science experiments and comparing their responses to established human baselines. Tests include:</p>
+          <ul>
+            <li>The Wason selection task</li>
+            <li>Kahneman and Tversky's prospect theory scenarios</li>
+            <li>False belief tasks</li>
+            <li>Analogical reasoning problems</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="bioethics" class="tab-content">
+      <div class="content-card">
+        <h2>Bioethics Research Objectives</h2>
+        <p>Our bioethics component examines how language models handle complex ethical dilemmas in medicine and biological research:</p>
+        
+        <div class="objective-details">
+          <h3>Key Research Questions</h3>
+          <ul>
+            <li>Can language models consistently apply ethical frameworks to novel bioethical dilemmas?</li>
+            <li>How do language models balance competing ethical principles in complex cases?</li>
+            <li>To what extent do language models demonstrate sensitivity to contextual features of bioethical cases?</li>
+            <li>Can language models articulate and defend normative positions on bioethical issues?</li>
+          </ul>
+        </div>
+        
+        <div class="objective-details">
+          <h3>Case Study Approach</h3>
+          <p>We present language models with a range of bioethical scenarios drawn from:</p>
+          <ul>
+            <li>End-of-life care decisions</li>
+            <li>Resource allocation in healthcare</li>
+            <li>Emerging biotechnology applications</li>
+            <li>Research ethics dilemmas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="deliberation" class="tab-content">
+      <div class="content-card">
+        <h2>Democratic Deliberation Objectives</h2>
+        <p>This research stream investigates language models' capacity to participate in and facilitate democratic discourse:</p>
+        
+        <div class="objective-details">
+          <h3>Key Research Questions</h3>
+          <ul>
+            <li>Can language models effectively moderate discussions between opposing viewpoints?</li>
+            <li>How do language models handle ambiguity and value pluralism in political discourse?</li>
+            <li>To what extent can language models identify and address power imbalances in deliberative processes?</li>
+            <li>Can language models facilitate consensus-building on contentious issues?</li>
+          </ul>
+        </div>
+        
+        <div class="objective-details">
+          <h3>Deliberative Experiments</h3>
+          <p>Our methodology includes simulated deliberative forums where language models:</p>
+          <ul>
+            <li>Moderate discussions between simulated stakeholders</li>
+            <li>Summarize key points of agreement and disagreement</li>
+            <li>Propose potential compromise positions</li>
+            <li>Identify values and assumptions underlying different positions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
-    © 2024 LLM-BioCogDemo. All rights reserved.
+    <div class="footer-content">
+      <div class="footer-logo">LLM-BioCogDemo</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="objectives.html">Objectives</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="results.html">Results</a>
+        <a href="team.html">Team</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 LLM-BioCogDemo. All rights reserved.</p>
+    </div>
   </footer>
 
+  <script src="assets/script.js"></script>
 </body>
 </html>
