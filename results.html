@@ -5,30 +5,271 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LLM-BioCogDemo - Results</title>
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-  <header class="banner">
-    <h1>LLM-BioCogDemo - Results</h1>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="objectives.html">Objectives</a></li>
-      <li><a href="methodology.html">Methodology</a></li>
-      <li><a href="results.html">Results</a></li>
-      <li><a href="team.html">Team</a></li>
-    </ul>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">LLM-BioCogDemo</a>
+      </div>
+      <div class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="objectives.html">Objectives</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="results.html" class="active">Results</a>
+        <a href="team.html">Team</a>
+        <a href="#" class="github-link"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
   </nav>
 
-  <main>
-    <section>
-      <h2>Results</h2>
-      <p>The results of this project will evaluate the performance of language models in tasks within cognitive science, bioethics, and democratic deliberation.</p>
-    </section>
-  </main>
+  <div class="page-header">
+    <div class="page-header-content">
+      <h1>Research Results</h1>
+      <p>Findings from our evaluation of language models across cognitive, ethical, and deliberative domains</p>
+    </div>
+  </div>
 
+  <div class="container">
+    <div class="results-status">
+      <div class="status-card">
+        <div class="status-icon in-progress">
+          <i class="fas fa-hourglass-half"></i>
+        </div>
+        <div class="status-content">
+          <h2>Research in Progress</h2>
+          <p>This project is currently in the data collection and analysis phase. Preliminary findings are presented below, with comprehensive results to be published upon completion of the study.</p>
+          <div class="status-timeline">
+            <div class="timeline-item completed">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4>Task Development</h4>
+                <p>Completed</p>
+              </div>
+            </div>
+            <div class="timeline-item completed">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4>Pilot Testing</h4>
+                <p>Completed</p>
+              </div>
+            </div>
+            <div class="timeline-item active">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4>Data Collection</h4>
+                <p>In Progress</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4>Final Analysis</h4>
+                <p>Upcoming</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4>Publication</h4>
+                <p>Upcoming</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="preliminary-results">
+      <h2>Preliminary Findings</h2>
+      
+      <div class="results-tabs">
+        <button class="tab-link" onclick="openTab(event, 'cognitive-results')">Cognitive Science</button>
+        <button class="tab-link" onclick="openTab(event, 'bioethics-results')">Bioethics</button>
+        <button class="tab-link" onclick="openTab(event, 'deliberation-results')">Democratic Deliberation</button>
+      </div>
+      
+      <div id="cognitive-results" class="tab-content">
+        <div class="results-card">
+          <h3>Cognitive Science Results</h3>
+          <div class="results-highlights">
+            <div class="highlight-item">
+              <div class="highlight-label">Key Finding</div>
+              <p>Language models demonstrate near-human performance on structured reasoning tasks but struggle with context-dependent inferential problems.</p>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-label">Strengths</div>
+              <ul>
+                <li>Consistent application of logical rules once identified</li>
+                <li>Strong performance on syllogistic reasoning</li>
+                <li>Effective pattern recognition in structured data</li>
+              </ul>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-label">Limitations</div>
+              <ul>
+                <li>Difficulty with ambiguous problems requiring contextual knowledge</li>
+                <li>Inconsistent performance on theory of mind tasks</li>
+                <li>Limited ability to identify relevance in complex scenarios</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="results-visualization">
+            <div class="chart-placeholder">
+              <i class="fas fa-chart-line"></i>
+              <p>Comparative performance chart will be displayed here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="bioethics-results" class="tab-content">
+        <div class="results-card">
+          <h3>Bioethics Results</h3>
+          <div class="results-highlights">
+            <div class="highlight-item">
+              <div class="highlight-label">Key Finding</div>
+              <p>Language models can articulate ethical principles and apply them to cases, but show inconsistencies in balancing competing values.</p>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-label">Strengths</div>
+              <ul>
+                <li>Accurate identification of ethical frameworks</li>
+                <li>Comprehensive consideration of ethical principles</li>
+                <li>Nuanced articulation of ethical tensions</li>
+              </ul>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-label">Limitations</div>
+              <ul>
+                <li>Inconsistent weighting of competing principles</li>
+                <li>Limited sensitivity to cultural context in ethical reasoning</li>
+                <li>Tendency toward ethical equivocation in ambiguous cases</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="results-visualization">
+            <div class="chart-placeholder">
+              <i class="fas fa-balance-scale"></i>
+              <p>Ethical framework application chart will be displayed here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="deliberation-results" class="tab-content">
+        <div class="results-card">
+          <h3>Democratic Deliberation Results</h3>
+          <div class="results-highlights">
+            <div class="highlight-item">
+              <div class="highlight-label">Key Finding</div>
+              <p>Language models excel at summarizing diverse perspectives but face challenges in facilitating genuine deliberative consensus.</p>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-label">Strengths</div>
+              <ul>
+                <li>Balanced representation of diverse viewpoints</li>
+                <li>Effective identification of common ground</li>
+                <li>Clear articulation of value differences</li>
+              </ul>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-label">Limitations</div>
+              <ul>
+                <li>Difficulty addressing power imbalances in discourse</li>
+                <li>Limited ability to generate novel compromise positions</li>
+                <li>Tendency to favor procedural over substantive fairness</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="results-visualization">
+            <div class="chart-placeholder">
+              <i class="fas fa-comments"></i>
+              <p>Deliberative quality metrics will be displayed here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-card">
+      <h2>Implications</h2>
+      <p>Our preliminary findings suggest several important implications for the use of language models in complex domains:</p>
+      
+      <div class="implications-grid">
+        <div class="implication-item">
+          <div class="implication-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>Model Development</h3>
+          <p>Future language model development should focus on improving contextual reasoning, ethical consistency, and deliberative capabilities.</p>
+        </div>
+        
+        <div class="implication-item">
+          <div class="implication-icon">
+            <i class="fas fa-cog"></i>
+          </div>
+          <h3>Application Design</h3>
+          <p>Applications utilizing language models in these domains should include appropriate guardrails and human oversight mechanisms.</p>
+        </div>
+        
+        <div class="implication-item">
+          <div class="implication-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Research Methods</h3>
+          <p>Evaluating language models requires multi-faceted approaches that go beyond simple accuracy metrics to assess reasoning quality.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="publications-section">
+      <h2>Related Publications</h2>
+      <p>The following publications and presentations are related to this research:</p>
+      
+      <div class="publications-list">
+        <div class="publication-item">
+          <div class="publication-meta">Conference Paper | 2024</div>
+          <h3>Evaluating Language Models in Cognitive Science: Methodological Challenges and Approaches</h3>
+          <p>Presented at the International Conference on Cognitive Science</p>
+          <a href="#" class="publication-link">View Paper <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        
+        <div class="publication-item">
+          <div class="publication-meta">Workshop | 2024</div>
+          <h3>Language Models as Deliberative Agents: Preliminary Findings from Simulated Public Forums</h3>
+          <p>Workshop on AI and Democratic Processes</p>
+          <a href="#" class="publication-link">View Presentation <i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">LLM-BioCogDemo</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="objectives.html">Objectives</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="results.html">Results</a>
+        <a href="team.html">Team</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 LLM-BioCogDemo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
 </body>
 </html>
-
