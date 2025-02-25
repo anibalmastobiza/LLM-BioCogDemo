@@ -3,55 +3,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LLM-BioCogDemo - Home</title>
+  <title>LLM-BioCogDemo</title>
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-  <header class="banner">
-    <h1>LLM-BioCogDemo</h1>
-    <p>Exploring the capabilities of language models in bioethics, cognitive science, and democratic deliberation</p>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="objectives.html">Objectives</a></li>
-      <li><a href="methodology.html">Methodology</a></li>
-      <li><a href="results.html">Results</a></li>
-      <li><a href="team.html">Team</a></li>
-    </ul>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">LLM-BioCogDemo</a>
+      </div>
+      <div class="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="objectives.html">Objectives</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="results.html">Results</a>
+        <a href="team.html">Team</a>
+        <a href="#" class="github-link"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
   </nav>
 
-  <main>
-    <section>
+  <div class="hero">
+    <div class="hero-content">
+      <h1>LLM-BioCogDemo</h1>
+      <p class="subtitle">Exploring the capabilities of language models in bioethics, cognitive science, and democratic deliberation</p>
+      <div class="cta-buttons">
+        <a href="objectives.html" class="btn primary">Learn More</a>
+        <a href="#" class="btn secondary">View Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="feature-section">
       <h2>Project Overview</h2>
-      <p>This project explores the potential of AI language models to perform tasks in bioethics, cognitive science, and democratic deliberation, assessing their validity and reliability across these critical fields.</p>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Cognitive Science</h3>
+          <p>Investigating how language models replicate human cognitive processes and reasoning patterns in controlled environments.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <h3>Bioethics</h3>
+          <p>Evaluating the capacity of AI to engage with complex ethical dilemmas and normative reasoning in biomedical contexts.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-comments"></i>
+          </div>
+          <h3>Democratic Deliberation</h3>
+          <p>Assessing how language models perform in simulated public discourse and consensus-building scenarios.</p>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Purpose</h2>
-      <p>The primary goal of this project is to understand and evaluate the performance of language models as they apply to complex domains. By assessing their capabilities in cognitive science, ethical reasoning, and public deliberation, we aim to contribute valuable insights into the responsible use of AI.</p>
+    <section class="info-section">
+      <div class="info-container">
+        <div class="info-text">
+          <h2>Purpose</h2>
+          <p>The primary goal of this project is to understand and evaluate the performance of language models as they apply to complex domains. By assessing their capabilities in cognitive science, ethical reasoning, and public deliberation, we aim to contribute valuable insights into the responsible use of AI.</p>
+          <a href="methodology.html" class="text-link">Explore our methodology <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="info-image">
+          <img src="assets/images/purpose-graphic.svg" alt="Research purpose illustration">
+        </div>
+      </div>
     </section>
 
-    <section>
+    <section class="key-features">
       <h2>Key Features</h2>
-      <ul>
-        <li>Develop a rigorous methodology for assessing AI language models in various domains.</li>
-        <li>Explore whether language models can act as proxies for human cognition under specific conditions.</li>
-        <li>Establish best practices for evaluating language models in bioethics, cognitive science, and democratic deliberation.</li>
-      </ul>
+      <div class="feature-list">
+        <div class="feature-item">
+          <div class="feature-number">01</div>
+          <div class="feature-content">
+            <h3>Rigorous Methodology</h3>
+            <p>Develop a comprehensive framework for assessing AI language models across various domains of human cognition and ethical reasoning.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-number">02</div>
+          <div class="feature-content">
+            <h3>Human-AI Comparison</h3>
+            <p>Explore whether language models can act as proxies for human cognition under specific conditions through direct comparative testing.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-number">03</div>
+          <div class="feature-content">
+            <h3>Best Practices</h3>
+            <p>Establish reliable evaluation frameworks for assessing language models in bioethics, cognitive science, and democratic deliberation.</p>
+          </div>
+        </div>
+      </div>
     </section>
-
-    <section>
-      <h2>About This Website</h2>
-      <p>This website serves as a platform to showcase our research progress and findings. Explore each section to learn more about our objectives, methodology, results, and the team behind the project.</p>
-    </section>
-  </main>
+  </div>
 
   <footer>
-    © 2024 LLM-BioCogDemo. All rights reserved.
+    <div class="footer-content">
+      <div class="footer-logo">LLM-BioCogDemo</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="objectives.html">Objectives</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="results.html">Results</a>
+        <a href="team.html">Team</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 LLM-BioCogDemo. All rights reserved.</p>
+    </div>
   </footer>
 
+  <script src="assets/script.js"></script>
 </body>
 </html>
